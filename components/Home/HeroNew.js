@@ -1,0 +1,28 @@
+import Image from "next/image";
+
+import { FaConnectdevelop } from "react-icons/fa";
+import Marque from "../UI/Marque";
+import ParticleSphereCanvas from "../models/ParticleSphereCanvas";
+
+export default function HeroNew() {
+  return (
+    <main className="w-full text-black min-h-[50vh] lg:h-fit bg-[#e6e4e4]" id="Home"  >
+      <Marque />
+      <div className="flex flex-col mx-3 " >
+        <h1 className="file uppercase my-8 xl:my-0 font-medium text-[3.8rem] tracking-tighter text-center  md:text-[8rem] lg:text-[10.2rem] xl:text-[9.9rem] 2xl:text-[15rem]" >Tayyab Faisal</h1>
+
+        <h3 className="uppercase my-8 font-medium  w-[8rem] md:w-[10.8rem]  text-left ml-6 lg:ml-10 xl:ml-[7vw] 2xl:ml-24 mt-5 text-xs" >Welcome to my portfolio! I build scalable web applications and intelligent systems with clean architecture, seamless experiences, and reliable performance.</h3>
+        <div className="flex justify-end mr-8 my-8  xl:my-0 " >
+
+          <ParticleSphereCanvas />
+
+        </div>
+      </div>
+
+      {/* Image */}
+
+
+
+    </main>
+  )
+}
