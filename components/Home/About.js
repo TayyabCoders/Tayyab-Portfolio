@@ -8,9 +8,6 @@ export default function About() {
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-14">
           <div className="order-2 lg:order-1">
-            {/* <h2 className="text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight">
-              Meet Rasil
-            </h2> */}
             <h3 className="uppercase file text-[1.6rem] md:text-[3.2rem] lg:text-[4.2rem] xl:text-[4rem] mb-8">
               Meet Tayyab
             </h3>

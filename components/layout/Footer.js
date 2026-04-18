@@ -21,15 +21,15 @@ export default function Footer() {
             </p>
 
             <div className="flex space-x-4">
-              <a href="https://github.com/ABRO-515" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/TayyabCoders" target="_blank" rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors">
                 <FaGithub size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/rasil-abro-28183a344" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/tayyab-faisal-b668992a9/" target="_blank" rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors">
                 <FaLinkedin size={20} />
               </a>
-              <a href="https://api.whatsapp.com/send/?phone=3010127971&text=Hi%21+Rasil+Abro+How+Are+You%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"
+              <a href="https://api.whatsapp.com/send/?phone=3102078728&text=Hi%21+Tayyab+Faisal+How+Are+You%3F&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors">
                 <IoLogoWhatsapp size={20} />
               </a>
@@ -52,7 +52,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold">Get In Touch</h3>
             <div className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
               <FaEnvelope size={18} />
-              <a href="mailto:rasilabro515@gmail.com">tayyabappex102@gmail.com</a>
+              <a href="mailto:tayyabappex102@gmail.com">tayyabappex102@gmail.com</a>
             </div>
             <button
               className="flex items-center hidden cursor-pointer space-x-2 bg-[#484651] hover:bg-[#3f3e45] text-white px-4 py-2 rounded-md transition-colors"
@@ -60,7 +60,7 @@ export default function Footer() {
                 // PDF download logic here
                 const link = document.createElement('a');
                 link.href = '/resume.pdf';
-                link.download = 'Rasil-Abro-Resume.pdf';
+                link.download = 'Tayyab-Faisal-Resume.pdf';
                 link.click();
               }}
             >

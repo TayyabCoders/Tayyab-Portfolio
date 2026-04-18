@@ -74,7 +74,7 @@ export default function Header() {
             <a
               href="/resume.pdf"
               className="hover:text-gray-400 hidden"
-              download="Rasil-Abro-Resume.pdf"
+              download="Tayyab-Faisal.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -86,13 +86,13 @@ export default function Header() {
             <div className="w-full h-[7.5px] bg-white"></div>
             <h2>Socials</h2>
             <div className="flex gap-5">
-              <Link href="https://github.com/ABRO-515">
+              <Link href="https://github.com/TayyabCoders">
                 <div className="bg-white p-2 rounded-full"><FaGithub className="invert" size={24} /></div>
               </Link>
-              <Link href="https://www.linkedin.com/in/rasil-abro-28183a344">
+              <Link href="https://www.linkedin.com/in/tayyab-faisal-b668992a9/">
                 <div className="bg-white p-2 rounded-full"><FaLinkedinIn className="invert" size={24} /></div>
               </Link>
-              <Link href="https://api.whatsapp.com/send/?phone=3010127971&text=Hi%21+Rasil+Abro+How+Are+You%3F&type=phone_number&app_absent=0">
+              <Link href="https://api.whatsapp.com/send/?phone=3102078728&text=Hi%21+Tayyab+Faisal+How+Are+You%3F&type=phone_number&app_absent=0">
                 <div className="bg-white p-2 rounded-full"><IoLogoWhatsapp className="invert" size={24} /></div>
               </Link>
             </div>

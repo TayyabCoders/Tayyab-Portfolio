@@ -37,7 +37,7 @@ export default function HeaderLG() {
           <a
             href="/resume.pdf"
             className="hover:text-gray-400 file hidden"
-            download="Rasil-Abro-Resume.pdf"
+            download="Tayyab-Faisal.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
